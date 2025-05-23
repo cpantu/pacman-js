@@ -86,6 +86,8 @@ class Pickup {
 
     if (type === 'fruit') {
       image = this.fruitImages[points] || 'cherry';
+    } else if (type === 'pacdot') {
+      image = 'chorizo';
     } else {
       image = type;
     }
